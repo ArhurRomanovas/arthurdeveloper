@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ background-image:url("blue.jpg");
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,apple-system,helvetica,arial,sans-serif;
+    background-color:navy;
+    height: 8vh;
+}
+img{
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    margin-left: 10%;
+}
+.logo{
+    color: white;
+    margin-left: 32px;
+     
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+li{
+    color:white;
+}
+ div{
+     color: black;
+ }
+ .paragrafo{
+     color:whitesmoke;
+     margin-left:25%;
+     font-family: "Times New Roman", Georgia, Serif;
+     text-overflow: ellipsis;
+ }
+ p{
+     color:yellow;
+     margin-left: 35%;
+     font-family: "Times New Roman", Georgia, Serif;
+ }
+ p.frase{
+     color:darkgray;
+     margin-left: 40%;
+     font-family: "Times New Roman", Georgia, Serif;
+     font: 10px;
+ }
+ 
